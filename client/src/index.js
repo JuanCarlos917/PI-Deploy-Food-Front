@@ -10,7 +10,8 @@ import axios from 'axios';
 
 //url local
 // axios.defaults.baseURL = 'http://localhost:3001';
-axios.defaults.baseURL = 'https://pi-deploy-food-back-production.up.railway.app';
+axios.defaults.baseURL =
+	'https://pi-deploy-food-back-production.up.railway.app/';
 
 ReactDOM.render(
 	<Provider store={store}>

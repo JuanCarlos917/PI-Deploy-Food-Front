@@ -8,7 +8,8 @@ import store from './redux/store';
 import { Provider } from 'react-redux';
 import axios from 'axios';
 
-axios.defaults.baseURL = 'http://localhost:3001';
+// axios.defaults.baseURL = 'http://localhost:3001';
+axios.defaults.baseURL = 'https://pi-deploy-food-back-production.up.railway.app';
 
 ReactDOM.render(
 	<Provider store={store}>
